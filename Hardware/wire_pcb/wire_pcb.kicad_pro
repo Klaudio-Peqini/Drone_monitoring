@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb_board_v01.svg",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -648,7 +648,7 @@
         "uuid": "81c199b4-9b80-4130-8f5c-cee014b2c24f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR12,J1",
     "variants": []
   },
   "sheets": [
