@@ -12,15 +12,15 @@
 
 ## 1. What this repository is
 
-This repository is the consolidated engineering/research framework for developing a drone-mounted environmental station from the first enclosure airflow calculation through final experimental validation and design freeze. It is deliberately organized as a sequence of seven gated phases. Each phase answers a different question, and later phases are not allowed to hide deficiencies identified earlier.
+This repository is a framework for developing a drone-mounted environmental station from the first enclosure airflow calculation through final experimental validation and design freeze. It is deliberately organized as a sequence of seven gated phases. Each phase answers a different question, and later phases are not allowed to hide deficiencies identified earlier.
 
-The baseline enclosure is approximately **150 × 150 × 150 mm**, initially equipped with one inlet and one outlet tube, a PM sensor, a temperature–humidity sensor, a pressure sensor, and electronic hardware. The starting reference flow is **2 L/min** through a **10 mm internal-diameter** tube. The framework then progressively introduces tracer transport, particles, heat and humidity, design optimization, the full drone/rotor environment, and finally physical experiments.
+The baseline enclosure is approximately **150 × 150 × 150 mm** (can be further modified), initially equipped with one inlet and one outlet tube, a PM sensor, a temperature–humidity sensor, a pressure sensor, and electronic hardware. The starting reference flow is **2 L/min** through a **10 mm internal-diameter** tube. The framework then progressively introduces tracer transport, particles, heat and humidity, design optimization, the full drone/rotor environment, and finally physical experiments.
 
 The project is designed for research use: it emphasizes traceability, conservation checks, numerical convergence, independent validation, uncertainty quantification, and reproducibility, rather than producing visually attractive CFD images without evidence.
 
 ### 1.1 What this repository is not
 
-It is **not** a claim that the final instrument is already experimentally certified. It is also not a substitute for sensor datasheets, traceable reference instrumentation, flight-safety procedures, institutional risk assessments, or local aviation rules. Numerical and experimental output directories begin empty on purpose. A result is considered validated only after real calculations/experiments have been executed, their provenance recorded, and the corresponding acceptance gate passed.
+It is **not** in the final validated form. Numerical and experimental output directories begin empty on purpose. A result is considered validated only after real calculations/experiments have been executed.
 
 ---
 
