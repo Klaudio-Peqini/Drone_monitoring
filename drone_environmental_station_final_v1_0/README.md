@@ -97,7 +97,7 @@ drone_environmental_station_final_v1_0/
 
 ### 4.1 Why old packages are retained as archives
 
-The Phase 1, 3 and 4 packages were generated at different points in development. They are kept unchanged under `reference_archives/` so that the exact earlier artifacts remain auditable. Do not silently merge their OpenFOAM dictionaries into a new baseline. Instead, extract them, run their static checks, adapt them to the installed OpenFOAM build where documented, and record any modification as a new revision.
+The Phase 1, 3, and 4 packages were generated at different points in development. They are kept unchanged under `reference_archives/` so that the exact earlier artifacts remain auditable. Do not silently merge their OpenFOAM dictionaries into a new baseline. Instead, extract them, run their static checks, adapt them to the installed OpenFOAM build where documented, and record any modification as a new revision.
 
 ---
 
@@ -131,14 +131,14 @@ These numbers are screening values. Use the actual temperature-dependent fluid p
 ## 6. Phase 1 — internal airflow
 
 ### 6.1 Objective
-Determine the basic internal hydrodynamics before adding transport physics. Required quantities include inlet/outlet flow, mass imbalance, pressure drop, mean and maximum velocity, sensor-adjacent velocity, stagnant-volume fraction, recirculation and potential inlet-to-outlet short-circuiting.
+Determine the basic internal hydrodynamics before adding transport physics. Required quantities include inlet/outlet flow, mass imbalance, pressure drop, mean and maximum velocity, sensor-adjacent velocity, stagnant-volume fraction, recirculation, and potential inlet-to-outlet short-circuiting.
 
 ### 6.2 Recommended workflow
 1. Extract `reference_archives/drone_sensor_cfd_phase1.zip`.
 2. Source the intended OpenFOAM environment.
 3. Run the package static checker.
 4. Regenerate geometry from the parameter file.
-5. Run `blockMesh`, surface extraction and `snappyHexMesh` as configured.
+5. Run `blockMesh`, surface extraction, and `snappyHexMesh` as configured.
 6. Run `checkMesh` and retain the log.
 7. Run the flow case.
 8. Check residual behaviour and physical balances.
@@ -165,7 +165,7 @@ The authoritative specification is `prompts/PHASE2_PROMPT.md`.
 
 ## 8. Phase 3 — PM transport
 
-PM must be treated as a size-dependent particle problem because inertia, settling, diffusion and wall losses can make particle sampling differ from scalar transport. The default design bins are 0.3, 0.5, 1, 2.5, 5 and 10 µm. The framework distinguishes particle number from mass and requires documented assumptions for material density and aerodynamic diameter.
+PM must be treated as a size-dependent particle problem because inertia, settling, diffusion, and wall losses can make particle sampling differ from scalar transport. The default design bins are 0.3, 0.5, 1, 2.5, 5 and 10 µm. The framework distinguishes particle number from mass and requires documented assumptions for material density and aerodynamic diameter.
 
 ### 8.1 Required verification
 - parcel fate closure;
@@ -201,7 +201,7 @@ The archived package contains component geometry and implementation scaffolding.
 
 ## 10. Phase 5 — robust multi-objective optimization
 
-Phase 5 changes the engineering question from “does one box work?” to “which family of designs gives the best trade-off?” It includes enclosure dimensions, inlet/outlet size and position, ducts, baffles, sensor location, electronics placement, pressure-port design, manufacturability and operating uncertainty.
+Phase 5 changes the engineering question from “does one box work?” to “which family of designs gives the best trade-off?” It includes enclosure dimensions, inlet/outlet size and position, ducts, baffles, sensor location, electronics placement, pressure-port design, manufacturability, and operating uncertainty.
 
 Never collapse the problem into one undocumented weighted score. Preserve Pareto fronts. A design that wins on t90 but causes PM10 losses or T/RH heating may not be acceptable.
 
@@ -213,7 +213,7 @@ The optimizer must exclude failed/unconverged CFD cases from the accepted Pareto
 
 Phase 6 places optimized enclosures into the actual disturbed aerodynamic environment. Use a multi-fidelity hierarchy: body-only, actuator disk, selected higher-fidelity rotor model, and transient high-fidelity confirmation only where needed. External results are mapped to the detailed internal enclosure model rather than resolving all internal millimetre-scale details in every whole-drone case.
 
-The central outputs are mounting position, inlet orientation and a predicted flight envelope. A quality flag should classify data as `valid`, `usable_with_correction`, or `invalid`, but these labels remain provisional until Phase 7 experimentally tests them.
+The central outputs are mounting position, inlet orientation, and a predicted flight envelope. A quality flag should classify data as `valid`, `usable_with_correction`, or `invalid`, but these labels remain provisional until Phase 7 experimentally tests them.
 
 ---
 
@@ -264,7 +264,7 @@ conda activate drone-env-validation
 python scripts/check_package.py
 ```
 
-The static checker validates critical files, JSON configuration parsing and Python syntax. Passing it proves package integrity, **not scientific validation**.
+The static checker validates critical files, JSON configuration parsing, and Python syntax. Passing it proves package integrity, **not scientific validation**.
 
 ---
 
@@ -290,7 +290,7 @@ data/raw/<run_id>/
 Add acquisition files under this directory. Do not replace a raw file with a corrected file. Corrected/calibrated products belong under `data/processed/` or `data/calibration/`.
 
 ### 14.1 Run IDs
-The default run ID combines UTC time and experiment type. A project may use a different documented convention, but IDs must remain unique and stable.
+The default run ID combines UTC and experiment type. A project may use a different documented convention, but IDs must remain unique and stable.
 
 ### 14.2 Metadata validation
 
@@ -298,7 +298,7 @@ The default run ID combines UTC time and experiment type. A project may use a di
 python scripts/validate_metadata.py data/raw/<run_id>/metadata.json
 ```
 
-The JSON schema requires run identity, experiment type, UTC start time, hardware/software versions, protocol version and operator list. Extend the schema when the project adds mandatory fields; do not simply store undocumented columns.
+The JSON schema requires run identity, experiment type, UTC start time, hardware/software versions, protocol version, and operator list. Extend the schema when the project adds mandatory fields; do not simply store undocumented columns.
 
 ---
 
@@ -311,7 +311,7 @@ python scripts/hash_raw_data.py \
   --out results/phase7/csv/raw_data_checksums.csv
 ```
 
-The checksum table provides file path, byte size and SHA-256. Keep it with the campaign archive. If a raw file changes later, the mismatch must be investigated. Never “clean” raw files in place.
+The checksum table provides file path, byte size, and SHA-256. Keep it with the campaign archive. If a raw file changes later, the mismatch must be investigated. Never “clean” raw files in place.
 
 Recommended storage practice:
 
@@ -326,7 +326,7 @@ Recommended storage practice:
 
 Comparing sensor and reference time series without a defensible time base can create false response delays or apparently excellent correlations at the wrong time.
 
-Each data source should record UTC timestamps or a clock that can be mapped reproducibly to UTC. Document sampling rate, clock drift, acquisition latency and any event marker used for synchronization.
+Each data source should record UTC timestamps or a clock that can be mapped reproducibly to UTC. Document sampling rate, clock drift, acquisition latency, and any event marker used for synchronization.
 
 The helper script can interpolate multiple CSV files onto a common grid:
 
@@ -339,7 +339,7 @@ python scripts/synchronize_timeseries.py \
   --out data/processed/synchronized.csv
 ```
 
-Interpolation is not automatically appropriate for every variable. Discrete quality flags, event states and highly intermittent particle counts may require nearest-neighbour, window aggregation or event-based comparison. Modify the workflow deliberately and document it.
+Interpolation is not automatically appropriate for every variable. Discrete quality flags, event states, and highly intermittent particle counts may require nearest-neighbour, window aggregation, or event-based comparison. Modify the workflow deliberately and document it.
 
 Do not manually shift curves until they “look right.” If clock offset is estimated from a physical event, preserve the algorithm and estimated uncertainty.
 
@@ -358,7 +358,7 @@ python scripts/validation_metrics.py \
   --out results/phase7/json/pm25_metrics.json
 ```
 
-The script reports sample count, mean and median bias, MAE, RMSE, NRMSE, correlation, regression slope/intercept, Bland–Altman bias/limits and an optional cross-correlation lag estimate.
+The script reports sample count, mean and median bias, MAE, RMSE, NRMSE, correlation, regression slope/intercept, Bland–Altman bias/limits, and an optional cross-correlation lag estimate.
 
 ### 17.1 Why correlation is insufficient
 A sensor can have `r≈1` and still be systematically wrong by a scale factor or offset. Acceptance must consider bias, error magnitude and uncertainty, not correlation alone.
@@ -607,7 +607,7 @@ python scripts/freeze_release.py \
 
 The script refuses to freeze if the gate file is absent or incomplete. When allowed, it generates a release manifest containing file hashes and sizes.
 
-Before signoff, fill the design-freeze report and final release manifest with:
+Before sign-off, fill the design-freeze report and final release manifest with:
 
 - enclosure and mount revision;
 - sensor configuration;
@@ -655,7 +655,7 @@ For Phase 1–6 CFD campaigns:
 - logs retained;
 - failed cases classified rather than automatically overwritten;
 - controlled retries only;
-- no failed/unconverged case admitted to optimization or final conclusions;
+- no failed/unconverged case admitted to optimization or conclusions;
 - environment/OpenFOAM version recorded;
 - post-processing performed from the same versioned configuration;
 - raw solver outputs archived selectively according to reproducibility requirements.
@@ -666,7 +666,7 @@ For Phase 7 analysis campaigns, use run-group-level jobs rather than splitting t
 
 ## 33. ParaView and visualization policy
 
-CFD visualization is diagnostic evidence, not the primary validation criterion. Use standardized views and quantitative probes. Recommended Phase 1–6 views include velocity/pressure, streamlines, scalar iso-surfaces, PM tracks/deposition, fluid/solid temperatures, RH/dew-point margin, rotor wakes and external-to-internal sampling streamlines.
+CFD visualization is diagnostic evidence, not the primary validation criterion. Use standardized views and quantitative probes. Recommended Phase 1–6 views include velocity/pressure, streamlines, scalar iso-surfaces, PM tracks/deposition, fluid/solid temperatures, RH/dew-point margin, rotor wakes, and external-to-internal sampling streamlines.
 
 Preserve the ParaView state or a reproducible instruction for every figure used in a paper/report. Record the case ID and time/averaging interval. Avoid selecting only visually dramatic snapshots when the comparison metric is time-averaged.
 
@@ -879,9 +879,3 @@ python scripts/evaluate_acceptance.py --gate instrument_characterization=PASS [.
 # Final release freeze — works only after all mandatory gates pass
 python scripts/freeze_release.py --release-id DroneEnvironmentalStation_v1.0
 ```
-
----
-
-## 45. Final note on completeness
-
-This package is intentionally comprehensive in **workflow, configuration, analysis, traceability and validation structure**, while refusing to fabricate the two things that can only come from the real project: converged numerical results and experimental evidence. Once the OpenFOAM campaigns and Phase 7 measurements are executed, the empty result locations and templates become the final scientific record rather than placeholders.
