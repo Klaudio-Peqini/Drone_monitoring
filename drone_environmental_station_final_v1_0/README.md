@@ -1,9 +1,9 @@
-# Drone Environmental Station 1.0 — Complete Seven-Phase CFD, Optimization, Validation and Design-Freeze Framework
+# Drone Environmental Station 1.0 — Seven-Phase CFD, Optimization, Validation and Design-Freeze Framework
 
 **Release:** `1.0.0-framework`  
 **Target final hardware release:** `DroneEnvironmentalStation_v1.0`  
 **Primary CFD environment:** OpenFOAM Foundation 14 on Ubuntu/Linux  
-**Automation / analysis:** Python 3.11+  
+**Automation/analysis:** Python 3.11+  
 **Batch execution:** HTCondor  
 **Visualization:** ParaView  
 **Project scope:** design and validate a drone-mounted environmental measurement enclosure for PM₁/PM₂.₅/PM₁₀, temperature, relative humidity and pressure.
@@ -14,9 +14,9 @@
 
 This repository is the consolidated engineering/research framework for developing a drone-mounted environmental station from the first enclosure airflow calculation through final experimental validation and design freeze. It is deliberately organized as a sequence of seven gated phases. Each phase answers a different question, and later phases are not allowed to hide deficiencies identified earlier.
 
-The baseline enclosure is approximately **150 × 150 × 150 mm**, initially equipped with one inlet and one outlet tube, a PM sensor, a temperature–humidity sensor, a pressure sensor and electronic hardware. The starting reference flow is **2 L/min** through a **10 mm internal-diameter** tube. The framework then progressively introduces tracer transport, particles, heat and humidity, design optimization, the full drone/rotor environment, and finally physical experiments.
+The baseline enclosure is approximately **150 × 150 × 150 mm**, initially equipped with one inlet and one outlet tube, a PM sensor, a temperature–humidity sensor, a pressure sensor, and electronic hardware. The starting reference flow is **2 L/min** through a **10 mm internal-diameter** tube. The framework then progressively introduces tracer transport, particles, heat and humidity, design optimization, the full drone/rotor environment, and finally physical experiments.
 
-The project is designed for research use: it emphasizes traceability, conservation checks, numerical convergence, independent validation, uncertainty and reproducibility rather than producing visually attractive CFD pictures without evidence.
+The project is designed for research use: it emphasizes traceability, conservation checks, numerical convergence, independent validation, uncertainty quantification, and reproducibility, rather than producing visually attractive CFD images without evidence.
 
 ### 1.1 What this repository is not
 
@@ -44,12 +44,12 @@ This ordering is important. For example, a rotor simulation cannot repair a poor
 
 The archive contains the available historical packages and all Phase 2–7 specifications. The maturity is intentionally recorded in `phase_status.json`.
 
-- **Phase 1:** a working static OpenFOAM package is archived. It must still be executed and numerically checked on the actual OpenFOAM 14 installation used by the project.
+- **Phase 1:** a working static OpenFOAM package is archived. It must still be executed and numerically verified on the project's actual OpenFOAM 14 installation.
 - **Phase 2:** the detailed specification is present. A dedicated fully validated runtime package is not represented as complete in this consolidated release.
-- **Phase 3:** a substantial particle-transport scaffold is archived. Runtime compatibility, parcel-event export and numerical convergence must be verified on the target installation.
+- **Phase 3:** a substantial particle-transport scaffold is archived. Runtime compatibility, parcel-event export, and numerical convergence must be verified on the target installation.
 - **Phase 4:** a substantial thermal/humidity/pressure scaffold is archived. The multi-region runtime adapter and numerical validation remain installation-specific.
 - **Phase 5:** the full optimization specification is archived. No fabricated Pareto front is supplied.
-- **Phase 6:** the full drone/rotor/external-flow specification is archived. Drone-specific CAD, propeller/thrust data and real campaign execution are required.
+- **Phase 6:** the full drone/rotor/external-flow specification is archived. Drone-specific CAD, propeller/thrust data, and real campaign execution are required.
 - **Phase 7:** this release includes a complete experimental-analysis and design-freeze scaffold. It requires real instrument and flight data.
 
 **The absence of pre-filled results is a feature.** It prevents templates or demonstration values from being mistaken for measured or simulated evidence.
@@ -64,14 +64,6 @@ drone_environmental_station_final_v1_0/
 ├── VERSION
 ├── CHANGELOG.md
 ├── phase_status.json
-├── prompts/
-│   ├── PHASE1_BASELINE_SPEC.md
-│   ├── PHASE2_PROMPT.md
-│   ├── PHASE3_PROMPT.md
-│   ├── PHASE4_PROMPT.md
-│   ├── PHASE5_PROMPT.md
-│   ├── PHASE6_PROMPT.md
-│   └── PHASE7_PROMPT.md
 ├── reference_archives/
 │   ├── drone_sensor_cfd_phase1.zip
 │   ├── drone_sensor_cfd_phase3.zip
