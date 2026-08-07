@@ -1,0 +1,17 @@
+{
+  "project_name": "Drone Environmental Station",
+  "target_release": "DroneEnvironmentalStation_v1.0",
+  "timezone_storage": "UTC",
+  "openfoam_target": "OpenFOAM Foundation 14",
+  "scheduler": "HTCondor",
+  "raw_data_policy": "immutable",
+  "default_coverage_factor_k": 2.0,
+  "required_measurands": [
+    "PM1",
+    "PM2.5",
+    "PM10",
+    "temperature",
+    "relative_humidity",
+    "pressure"
+  ]
+}

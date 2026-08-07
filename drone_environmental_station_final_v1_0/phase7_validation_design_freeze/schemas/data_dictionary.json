@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "ISO-8601 UTC timestamp or seconds from an explicitly documented epoch",
+  "run_id": "unique experiment identifier",
+  "source": "drone/reference/telemetry/flow/power/etc.",
+  "variable": "canonical variable name",
+  "value": "numeric value",
+  "unit": "SI or declared unit",
+  "quality_raw": "raw acquisition quality indicator",
+  "calibration_version": "calibration applied to processed value",
+  "correction_model_version": "post-calibration correction identifier",
+  "quality_flag": "valid/usable_with_correction/invalid",
+  "uncertainty_standard": "standard uncertainty in same unit as value",
+  "uncertainty_expanded": "expanded uncertainty with declared k"
+}

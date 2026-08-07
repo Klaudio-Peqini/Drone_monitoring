@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Drone Environmental Station Experiment Metadata",
+  "type": "object",
+  "required": [
+    "run_id",
+    "experiment_type",
+    "start_time_utc",
+    "hardware_version",
+    "software_commit",
+    "protocol_version",
+    "operators"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "experiment_type": {
+      "type": "string"
+    },
+    "start_time_utc": {
+      "type": "string"
+    },
+    "hardware_version": {
+      "type": "string"
+    },
+    "software_commit": {
+      "type": "string"
+    },
+    "protocol_version": {
+      "type": "string"
+    },
+    "operators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "reference_instruments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "environment": {
+      "type": "object"
+    },
+    "flight_state": {
+      "type": "object"
+    }
+  }
+}

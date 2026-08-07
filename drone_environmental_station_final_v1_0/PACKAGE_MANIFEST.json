@@ -1,0 +1,442 @@
+{
+  "release": "1.0.0-framework",
+  "generated": "2026-08-07",
+  "file_count_excluding_manifest": 87,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 861,
+      "sha256": "b062d55f62d1b20a3e83ed763761fe7ac8080287ce1a1fe95c0168c35d99ba58"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 38846,
+      "sha256": "ca11b87d7364bfbbb4736f87d4e7323d9659d3961050bcc71dea0b6e3b0c6d56"
+    },
+    {
+      "path": "TEST_STATUS.md",
+      "size_bytes": 815,
+      "sha256": "ae94fcb603fdbca8420465b6add4ef185671856277a9b96472bede437632035e"
+    },
+    {
+      "path": "VERSION",
+      "size_bytes": 16,
+      "sha256": "70e907ab1d8addd4fc33c55a1bf10f577cd245a2b4a80e272c69c1aa36e817e9"
+    },
+    {
+      "path": "check_repository.py",
+      "size_bytes": 787,
+      "sha256": "dc8453050ff2d01cce8f8d36bc840863e8a28658c1d2f91477a98674984e94a6"
+    },
+    {
+      "path": "phase7_validation_design_freeze/Makefile",
+      "size_bytes": 205,
+      "sha256": "20281fc35d09384f6ba8a1df51e3c224fa91070cb8da6c14022ec7a94f124a90"
+    },
+    {
+      "path": "phase7_validation_design_freeze/README.md",
+      "size_bytes": 474,
+      "sha256": "309bb1cceca32e8290de7ff2f44fc7a2bf7efdbcbd95acdd622839d3b611aa3d"
+    },
+    {
+      "path": "phase7_validation_design_freeze/config/acceptance_criteria.json",
+      "size_bytes": 847,
+      "sha256": "90ce00f676906f6ff60196e1ed0f27470d70620af71f1a772b98f9ef0640caa3"
+    },
+    {
+      "path": "phase7_validation_design_freeze/config/final_release_manifest.template.json",
+      "size_bytes": 781,
+      "sha256": "337f8f7ac4a4642ae6589fee766c9d43dc8a03853a2adfe5a6c4264738781260"
+    },
+    {
+      "path": "phase7_validation_design_freeze/config/instruments.template.json",
+      "size_bytes": 1036,
+      "sha256": "1544a27dbe091aec15c8244b92b081ca25292e8cac08ba5893de7dd6236fe203"
+    },
+    {
+      "path": "phase7_validation_design_freeze/config/project.json",
+      "size_bytes": 406,
+      "sha256": "6ee5aff8158b3adb4e624a206edd0fb66ab5991c620eb6bd223b1eb9cd3427ac"
+    },
+    {
+      "path": "phase7_validation_design_freeze/config/quality_rules.json",
+      "size_bytes": 805,
+      "sha256": "ec30cb54a304cbbff05740bb8a99f50bd4799eed17e0723def2f9710f6e5ab0a"
+    },
+    {
+      "path": "phase7_validation_design_freeze/data/calibration/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/data/processed/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/data/raw/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/data/reference/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/CORRECTION_MODEL_GUIDE.md",
+      "size_bytes": 580,
+      "sha256": "87211a63b6aee3ec7518650634910a7dafd59ec7007fa7fee575d6395f06264d"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/DATA_GOVERNANCE.md",
+      "size_bytes": 559,
+      "sha256": "a553b52fc557ebb973e7af93b6e2cca4b8e894b3e246e20e8c6a60c67b8ccfa6"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/DESIGN_FREEZE.md",
+      "size_bytes": 1045,
+      "sha256": "d341f376525216bf82425fe1f061f215d0e8e59aebec7ba768d82759ffebb054"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/HTCONDOR_GUIDE.md",
+      "size_bytes": 545,
+      "sha256": "460ec406df556efb5dc25956664d6d0714910d6b1a45cb97465b2b6c3db79ff5"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/RESULTS_POLICY.md",
+      "size_bytes": 336,
+      "sha256": "20cc91cd67d89b9e0f287f59b11f80d1753c0ec2242c1b00c554530ffb85cb85"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/TROUBLESHOOTING.md",
+      "size_bytes": 1401,
+      "sha256": "a57292fd160f205950e2fb09726fe61bd9b1936ce400d41352c5e375fb158138"
+    },
+    {
+      "path": "phase7_validation_design_freeze/docs/UNCERTAINTY_GUIDE.md",
+      "size_bytes": 1400,
+      "sha256": "64af24fc09c951d17440007d6145c715c2feaf511a62ff08e86e7230c1f1b18a"
+    },
+    {
+      "path": "phase7_validation_design_freeze/environment.yml",
+      "size_bytes": 173,
+      "sha256": "cecc36eda501dc142efa1e6d106b8182191845a648152f6dae73389309cfd510"
+    },
+    {
+      "path": "phase7_validation_design_freeze/htcondor/validation_analysis.sub",
+      "size_bytes": 444,
+      "sha256": "5598b0d4774e8d454f012b13937999aa21493e077371d4401e29d50414299ac3"
+    },
+    {
+      "path": "phase7_validation_design_freeze/logs/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/AIRFLOW_TRACER_PROTOCOL.md",
+      "size_bytes": 458,
+      "sha256": "9a6a73941ad056d4f873adf6dd52fc3c797d85419621dfa75acc9093067c1453"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/FIELD_CAMPAIGN_PROTOCOL.md",
+      "size_bytes": 418,
+      "sha256": "5a0c9070a4d49caf173fc75a32695fde1ecd680f7e6c03f1a1b107dc1087646e"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/INSTRUMENT_CHARACTERIZATION.md",
+      "size_bytes": 440,
+      "sha256": "1affd737ef7b5e85e875beae891866259a70c92d9c4e808f90fad42aaf432b62"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/MASTER_VALIDATION_PROTOCOL.md",
+      "size_bytes": 1849,
+      "sha256": "1a3746c169d309af7fe40eb2f2cecb92456e8d1476f61cab2b8769a6e4b77975"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/PM_VALIDATION_PROTOCOL.md",
+      "size_bytes": 512,
+      "sha256": "cd43c119ac3429df0ea0df3ff1cbfc19f7b60facd6eeaf7aff3fc579df90553e"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/ROTOR_FLIGHT_PROTOCOL.md",
+      "size_bytes": 494,
+      "sha256": "d267a27f9badaa2f8078e8813433d7f276c892c50f20dcb936324cc40f44dc47"
+    },
+    {
+      "path": "phase7_validation_design_freeze/protocols/THERMAL_HUMIDITY_PRESSURE_PROTOCOL.md",
+      "size_bytes": 469,
+      "sha256": "83c5f3b3f8d3154c19d3b2ddb2f510f46a7b98bb408a082d52644439fb754e55"
+    },
+    {
+      "path": "phase7_validation_design_freeze/release/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/reports/DESIGN_FREEZE_REPORT_TEMPLATE.md",
+      "size_bytes": 396,
+      "sha256": "5987d88685727c835749fe33ac7f7d8464a1cc5d5b23cd530612005fd02ceb68"
+    },
+    {
+      "path": "phase7_validation_design_freeze/reports/FINAL_VALIDATION_REPORT_TEMPLATE.md",
+      "size_bytes": 867,
+      "sha256": "37a6e8124a731e8151dcf5879670d8b42a4372608e1b5ea8576452939096ff5b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/requirements.txt",
+      "size_bytes": 69,
+      "sha256": "cd02b704f8d1a19b69f14bc56efc2879bc1836820e63e1ff7def0909e9758cf1"
+    },
+    {
+      "path": "phase7_validation_design_freeze/results/phase7/csv/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/results/phase7/figures/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/results/phase7/json/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/results/phase7/reports/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "phase7_validation_design_freeze/schemas/data_dictionary.json",
+      "size_bytes": 687,
+      "sha256": "c9d23e34ddf55b11a0a6b55875b7b644ba950d0665224278b7f08c4b08f22533"
+    },
+    {
+      "path": "phase7_validation_design_freeze/schemas/experiment_metadata.schema.json",
+      "size_bytes": 1058,
+      "sha256": "bfc65385ad207af71ca3a048bef3dc1ace1402fd5608e9a7ea34feebc45f8bad"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/apply_quality_flags.cpython-313.pyc",
+      "size_bytes": 3829,
+      "sha256": "83cd2c6dc51024ef0b236a97226b9abf77d9edcda953d2d4a75ec79058f4c189"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/check_package.cpython-313.pyc",
+      "size_bytes": 1847,
+      "sha256": "d4499e28a4733420ac002f8b19547f0fa29816f3000148f527fef943e3960a71"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/common.cpython-313.pyc",
+      "size_bytes": 1856,
+      "sha256": "6e63ba6cea01712bbe3ce59695dd9c6b92f9e627dd9082abf8a24d906a920f1d"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/evaluate_acceptance.cpython-313.pyc",
+      "size_bytes": 2437,
+      "sha256": "395049731a82dbef223962c6f05ddacf2282a08e572213ff6e232a21d4df258c"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/freeze_release.cpython-313.pyc",
+      "size_bytes": 2852,
+      "sha256": "9b7cebd7d7f4b46cf5581dc4fe03c267b358745511d5353cffcc30319dbd1a68"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/hash_raw_data.cpython-313.pyc",
+      "size_bytes": 2224,
+      "sha256": "056917a117e66bdd3dcd8a23977b42db33b9f7d6fde6be2a4b08b9767ca9fe38"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/new_run.cpython-313.pyc",
+      "size_bytes": 2960,
+      "sha256": "a7de77970367cb9797fbb8459cb6ec3616ab6e6e5fb42d8581a95789d6283f1e"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/response_metrics.cpython-313.pyc",
+      "size_bytes": 4270,
+      "sha256": "269dd4cc2ae7b515c8cfdbce6058f8e71f8b634c4875c541c83ac601ae16df1c"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/synchronize_timeseries.cpython-313.pyc",
+      "size_bytes": 3855,
+      "sha256": "79c61d6ee1a43323b06e0df5b46056a7318ea2b5ce08f1d94ba2d6b3074f7f81"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/train_linear_correction.cpython-313.pyc",
+      "size_bytes": 5765,
+      "sha256": "5847318125a4a2bf577756fb8bebec8604bbdfb20fc90ccc84f917a44e269f76"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/uncertainty_budget.cpython-313.pyc",
+      "size_bytes": 2622,
+      "sha256": "19170330501e8427a161bc3f3d2e6dc5b5a46f609e2dd5a8f785e86373f39083"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/validate_metadata.cpython-313.pyc",
+      "size_bytes": 1616,
+      "sha256": "76bedb3adfc81f865993af4f592caddfe0e599e7f83eca90033135c3475bda61"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/__pycache__/validation_metrics.cpython-313.pyc",
+      "size_bytes": 4620,
+      "sha256": "2d6b06a3d6ec4da13bda8332f185bd1d94972af2e08a83d6d4487e6515221992"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/apply_quality_flags.py",
+      "size_bytes": 1963,
+      "sha256": "3b067067aa604694822906d4254176bcf818dcea8c0e195f26823f2184512a1f"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/bootstrap.sh",
+      "size_bytes": 275,
+      "sha256": "8cd7f0e499204cf647817dafc3ea40931245884b333db678a7f3312e5671f15f"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/check_package.py",
+      "size_bytes": 803,
+      "sha256": "e5aa3f60fda988697970ac1648d48c7b3f466de30c292cef2e60acd2a2339fe9"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/common.py",
+      "size_bytes": 553,
+      "sha256": "4a71c9d10cf4fceb69fb1e2121ea854b09e5f76df4612c6a7bf90b41b2d6725a"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/evaluate_acceptance.py",
+      "size_bytes": 1198,
+      "sha256": "bdc981c1201abf4003a67224f5f032e64d33ff640bcd025073a4fe4d4c84231d"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/freeze_release.py",
+      "size_bytes": 1338,
+      "sha256": "b456cb56873e57776008fa9a816e62d4901dad9fd32d2a6a1a34da9290a1e951"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/hash_raw_data.py",
+      "size_bytes": 749,
+      "sha256": "3abf3b04eb041c3c639766ceb42ad51dcb72066cb18acbf16fa9ded335d8daae"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/new_run.py",
+      "size_bytes": 1544,
+      "sha256": "00d222c3240d93809e6cc68956064a5c498cd56d9f08ac1156836848ec0b7c89"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/response_metrics.py",
+      "size_bytes": 1584,
+      "sha256": "56b980313b542eac879e6c64939df18fc472ad7f274bbf1192c5ab375f7bef26"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/synchronize_timeseries.py",
+      "size_bytes": 1612,
+      "sha256": "b316d6f7a83c919977519d1796133e7c8c84570681d55550b284103eb4249fa0"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/train_linear_correction.py",
+      "size_bytes": 1843,
+      "sha256": "cfe380907a35da1c0c3c17718ee92b0dcbb4bf50e053048b6501931416da1ba8"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/uncertainty_budget.py",
+      "size_bytes": 1026,
+      "sha256": "dbb79ef99e92c25ae73a5eeb0f355ce963b168132fa78b392a4451101ab1d4a4"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/validate_metadata.py",
+      "size_bytes": 655,
+      "sha256": "6bc6ca200706b956ea127b1f09e0e8a749aa9145ad20d277fa8c197c924a6cb6"
+    },
+    {
+      "path": "phase7_validation_design_freeze/scripts/validation_metrics.py",
+      "size_bytes": 1658,
+      "sha256": "15b13792e7951b3a98668abc0a84db77a9deefa5e6f9a4f0a078e69d0f2cb9a9"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/experiment_registry.csv",
+      "size_bytes": 152,
+      "sha256": "25c1e01fdf3cc44dfa05f1426baa93d6b84f084530e13b9bed73a338cee70880"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/final_flight_envelope.csv",
+      "size_bytes": 98,
+      "sha256": "8eedb99ce832b4e286e62b72dd67768be92d37bb3b73119f45d60fb4f40088f0"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/flight_validation.csv",
+      "size_bytes": 192,
+      "sha256": "fda65256c35a9f2eea5929bbdb7ae2b898e6115f0d9e1cd5276403a2ce2564df"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/quality_flag_validation.csv",
+      "size_bytes": 99,
+      "sha256": "32408aa3ff5050b8887691cd723a2eea705802c408152785b1b3a22ce6527541"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/sensor_calibration.csv",
+      "size_bytes": 154,
+      "sha256": "a1cc4d79b5e26d46963ee58e79525e2fbac7a237736f78dd2c07e1a29e44bc61"
+    },
+    {
+      "path": "phase7_validation_design_freeze/templates/uncertainty_budget.csv",
+      "size_bytes": 129,
+      "sha256": "08aea0d6c51287cfede22d4dbcef5ad83fecd2a8e65fc4cd6a9c04695f0e5c8c"
+    },
+    {
+      "path": "phase_status.json",
+      "size_bytes": 1762,
+      "sha256": "1fa57db17ed35ba5a9bc88734a62766b54a14b0a7886fa010faa2a001bb7a148"
+    },
+    {
+      "path": "prompts/PHASE1_BASELINE_SPEC.md",
+      "size_bytes": 747,
+      "sha256": "d9d9ce732e306601d18d9266517ce62d0d54dd8b494385266daa9f54841404c8"
+    },
+    {
+      "path": "prompts/PHASE2_PROMPT.md",
+      "size_bytes": 2895,
+      "sha256": "37f1ab49e1b84e794bfe856cdd8fa1da19f182ab5828f3aeecbb4d7a4876bba0"
+    },
+    {
+      "path": "prompts/PHASE3_PROMPT.md",
+      "size_bytes": 14159,
+      "sha256": "2ab932a02e2bc86b3fb0bd282164b821486dcacedd984bdab7a3b2f103f8a874"
+    },
+    {
+      "path": "prompts/PHASE4_PROMPT.md",
+      "size_bytes": 16147,
+      "sha256": "a3542eb83b81953766b2867fb989660f4028bcddf1c2e7dfe4b35f93e45f405c"
+    },
+    {
+      "path": "prompts/PHASE5_PROMPT.md",
+      "size_bytes": 17493,
+      "sha256": "1c43f36893f33521c298cf5affd40e991690ad8a8ba390ae2525c1c70f233850"
+    },
+    {
+      "path": "prompts/PHASE6_PROMPT.md",
+      "size_bytes": 24379,
+      "sha256": "49ac08225810b2026a4e5f24986b02cfa85ccc21156c1f58e855fba561b1c1ff"
+    },
+    {
+      "path": "prompts/PHASE7_PROMPT.md",
+      "size_bytes": 33357,
+      "sha256": "6689ad8e0172f4668faa283859c766ad1c946c0e347c4ded2571956aa8ec4dd3"
+    },
+    {
+      "path": "reference_archives/drone_sensor_cfd_phase1.zip",
+      "size_bytes": 44129,
+      "sha256": "ea0b314ef9404ef6205fcb3c3e338cabeb7aa967ffa05c942fb6844bc13c4cd6"
+    },
+    {
+      "path": "reference_archives/drone_sensor_cfd_phase3.zip",
+      "size_bytes": 128156,
+      "sha256": "f5bb2efdeec5274eb2ab4727c2c644a2a0e39d6a147622d8618b7c83ed9b09bd"
+    },
+    {
+      "path": "reference_archives/drone_sensor_cfd_phase4.zip",
+      "size_bytes": 2031352,
+      "sha256": "a688c5ee995a2523f5717e9886ac6b452313769126eb5172fbb618d277fe6834"
+    }
+  ]
+}

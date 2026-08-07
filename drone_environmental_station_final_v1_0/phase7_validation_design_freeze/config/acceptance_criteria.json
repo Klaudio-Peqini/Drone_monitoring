@@ -1,0 +1,25 @@
+{
+  "_status": "PROVISIONAL \u2014 replace/confirm against sensor datasheets and project scientific requirements before formal validation",
+  "flow_balance_percent_max": 0.5,
+  "tracer_t90_relative_error_percent_max": 10.0,
+  "pm_transmission_relative_error_percent_max": 10.0,
+  "temperature_bias_abs_C_max": 0.3,
+  "rh_bias_abs_percentage_points_max": 3.0,
+  "pressure_bias_abs_Pa_max": null,
+  "minimum_repeat_runs": 3,
+  "quality_false_accept_rate_max": 0.02,
+  "correction_required_improvement_percent_min": 10.0,
+  "mandatory_gates": [
+    "instrument_characterization",
+    "airflow_validation",
+    "tracer_validation",
+    "pm_validation",
+    "thermal_validation",
+    "humidity_validation",
+    "pressure_validation",
+    "rotor_wake_validation",
+    "flight_validation",
+    "uncertainty_complete",
+    "quality_flags_validated"
+  ]
+}
