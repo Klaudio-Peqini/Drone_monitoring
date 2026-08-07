@@ -1,4 +1,4 @@
-# Drone Environmental Station — Complete Seven-Phase CFD, Optimization, Validation and Design-Freeze Framework
+# Drone Environmental Station 1.0 — Complete Seven-Phase CFD, Optimization, Validation and Design-Freeze Framework
 
 **Release:** `1.0.0-framework`  
 **Target final hardware release:** `DroneEnvironmentalStation_v1.0`  
