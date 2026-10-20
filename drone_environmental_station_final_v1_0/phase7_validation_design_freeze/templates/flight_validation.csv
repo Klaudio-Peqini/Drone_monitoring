@@ -1,1 +1,0 @@
-run_id,timestamp_utc,flight_condition,horizontal_speed_m_s,vertical_speed_m_s,pitch_deg,roll_deg,yaw_deg,wind_speed_m_s,rotor_rpm_mean,measurand,drone_value,reference_value,unit,quality_flag
