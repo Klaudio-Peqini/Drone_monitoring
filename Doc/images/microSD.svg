@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="213.71655"
+   width="211.2186"
    height="157.36902"
-   viewBox="0 0 213.71655 157.36902"
+   viewBox="0 0 211.21859 157.36902"
    sodipodi:docname="microSD.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -24,160 +24,160 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="4.9692119"
-     inkscape:cx="62.887236"
-     inkscape:cy="72.244856"
+     inkscape:zoom="3.6455836"
+     inkscape:cx="96.829489"
+     inkscape:cy="78.176783"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2892" />
+     inkscape:current-layer="g5427" />
   <defs
      id="defs6" />
   <g
      id="g8"
-     transform="translate(34.477699,-0.27615106)">
+     transform="translate(39.743164,-0.27615106)">
     <g
        id="g5427">
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-22.774269"
+         x="139.22574"
          y="26.458038"
          id="text1575"><tspan
            id="tspan1573"
-           x="-22.774269"
+           x="139.22574"
            y="26.458038"
            style="font-size:16px;fill:#000000">A0</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-22.336769"
-         y="45.648731"
+         x="139.43277"
+         y="45.662758"
          id="text1681"><tspan
            id="tspan1679"
-           x="-22.336769"
-           y="45.648731"
+           x="139.43277"
+           y="45.662758"
            style="font-size:16px;fill:#000000">A1</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-22.340508"
-         y="64.790169"
+         x="139.6908"
+         y="65.964775"
          id="text1789"><tspan
            id="tspan1787"
-           x="-22.340508"
-           y="64.790169"
+           x="139.6908"
+           y="65.964775"
            style="font-size:16px;fill:#000000">A2</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-22.469343"
+         x="139.53064"
          y="83.91758"
          id="text1793"><tspan
            id="tspan1791"
-           x="-22.469343"
+           x="139.53064"
            y="83.91758"
            style="font-size:16px;fill:#000000">A3</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-35.532387"
+         x="138.46762"
          y="103.06495"
          id="text1797"><tspan
            id="tspan1795"
-           x="-35.532387"
+           x="138.46762"
            y="103.06495"
            style="font-size:16px;fill:#000000">SDA</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-32.864204"
+         x="139.1358"
          y="122.32581"
          id="text1801"><tspan
            id="tspan1799"
-           x="-32.864204"
+           x="139.1358"
            y="122.32581"
            style="font-size:16px;fill:#000000">SCL</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="-22.903461"
+         x="139.09654"
          y="141.16861"
          id="text1805"><tspan
            id="tspan1803"
-           x="-22.903461"
+           x="139.09654"
            y="141.16861"
            style="font-size:16px;fill:#000000">TX</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="138.94257"
+         x="-31.057426"
          y="27.375364"
          id="text1809"><tspan
            id="tspan1807"
-           x="138.94257"
+           x="-31.057426"
            y="27.375364"
            style="font-size:16px;fill:#000000">5V0</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="139.49884"
+         x="-36.50116"
          y="47.079811"
          id="text1813"><tspan
            id="tspan1811"
-           x="139.49884"
+           x="-36.50116"
            y="47.079811"
            style="font-size:16px;fill:#000000">GND</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="139.02577"
+         x="-30.974228"
          y="65.998154"
          id="text1817"><tspan
            id="tspan1815"
-           x="139.02577"
+           x="-30.974228"
            y="65.998154"
            style="font-size:16px;fill:#000000">3V3</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="138.68652"
+         x="-41.313477"
          y="85.228806"
          id="text1821"><tspan
            id="tspan1819"
-           x="138.68652"
+           x="-41.313477"
            y="85.228806"
            style="font-size:16px;fill:#000000">MOSI</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="138.86386"
+         x="-41.136139"
          y="104.74992"
          id="text1825"><tspan
            id="tspan1823"
-           x="138.86386"
+           x="-41.136139"
            y="104.74992"
            style="font-size:16px;fill:#000000">MISO</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="139.14824"
+         x="-32.851761"
          y="123.496"
          id="text1829"><tspan
            id="tspan1827"
-           x="139.14824"
+           x="-32.851761"
            y="123.496"
            style="font-size:16px;fill:#000000">SCK</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:16px;font-family:'DejaVu Sans', 'Liberation Sans', Arial, sans-serif;-inkscape-font-specification:'DejaVu Sans, Liberation Sans, Arial, sans-serif';opacity:1;fill:#ffffff;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round"
-         x="138.89836"
+         x="-23.101639"
          y="143.34656"
          id="text1833"><tspan
            id="tspan1831"
-           x="138.89836"
+           x="-23.101639"
            y="143.34656"
            style="font-size:16px;fill:#000000">RX</tspan></text>
       <rect
