@@ -1,0 +1,143 @@
+{
+  "input_sha256": "5e88c95d444c4ad57f326ca7f267e672b010e2275ff6e02ff3a1181ffcdc7028",
+  "scenario": {
+    "name": "east_loaded",
+    "extra_payload_kg": 1.0,
+    "wind_m_s": [
+      5.0,
+      0.0,
+      0.0
+    ]
+  },
+  "station_position_body_m": null,
+  "grid": [
+    36,
+    36,
+    36
+  ],
+  "grid_spacing_m": [
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ],
+  "force_width_m": 0.14,
+  "duration_s": 2.0,
+  "average_from_s": 1.0,
+  "steps": 1224,
+  "time_step_min_s": 0.0003314145764957144,
+  "wall_seconds": 89.3977664009999,
+  "pressure_workers": 1,
+  "maximum_speed_m_s": 11.799519334834145,
+  "max_eddy_viscosity_m2_s": 0.007203285483449205,
+  "snapshot_stride": null,
+  "trim": {
+    "rotation": [
+      [
+        0.9997615853716315,
+        0.0,
+        -0.021835118850191085
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.021835118850191085,
+        0.0,
+        0.9997615853716315
+      ]
+    ],
+    "normal": [
+      -0.021835118850191085,
+      -0.0,
+      0.9997615853716314
+    ],
+    "centres": [
+      [
+        -0.34736155397063356,
+        -0.2852244184697424,
+        0.11244212703299368
+      ],
+      [
+        0.34212112544658774,
+        -0.2852244184697424,
+        0.12750065345619788
+      ],
+      [
+        0.34212112544658774,
+        0.2852244184697424,
+        0.12750065345619788
+      ],
+      [
+        -0.34736155397063356,
+        0.2852244184697424,
+        0.11244212703299368
+      ]
+    ],
+    "body_centres": [
+      [
+        -0.3448235506873005,
+        -0.2852244184697424,
+        0.12
+      ],
+      [
+        0.3448235506873005,
+        -0.2852244184697424,
+        0.12
+      ],
+      [
+        0.3448235506873005,
+        0.2852244184697424,
+        0.12
+      ],
+      [
+        -0.3448235506873005,
+        0.2852244184697424,
+        0.12
+      ]
+    ],
+    "loads_N": [
+      19.29918508303939,
+      19.29918508303939,
+      19.29918508303939,
+      19.29918508303939
+    ],
+    "torques_Nm": [
+      0.28948777624559086,
+      -0.28948777624559086,
+      0.28948777624559086,
+      -0.28948777624559086
+    ],
+    "total_mass_kg": 7.87,
+    "tilt_deg": 1.2511595884460258,
+    "drag_N": [
+      1.6856,
+      0.0,
+      0.0
+    ],
+    "force_balance_residual_N": 0.0,
+    "moment_balance_residual_Nm": 0.0,
+    "experimentally_calibrated": false
+  },
+  "mean_model_body_drag_N": [
+    -2.1575642675722335,
+    4.715589041372763e-17,
+    1.604285380290421
+  ],
+  "quality": {
+    "force_moment_error_max": 7.105427357601002e-15,
+    "max_divergence_1_s": 2.3092638912203256e-14,
+    "gas_mass_ledger_relative": 3.1068897454744614e-16,
+    "max_mach": 0.03440093100534736,
+    "max_block_drift_m_s": 0.13215566764819422
+  },
+  "status": "numerical_gates_passed; physical_validation_pending",
+  "model": "incompressible SSPRK2 MAC; minmod momentum flux; Smagorinsky SGS; force-normalised actuator disks",
+  "uncertainty": [
+    "Motor rectangular aspect and rotor-plane height are assumptions.",
+    "Disk width, radial loading and torque need measured wake calibration.",
+    "Distributed station/support drag is a subgrid surrogate, not a resolved no-slip surface.",
+    "Resolved RMS excludes subgrid and ambient turbulence; no synthetic turbulence is added."
+  ]
+}
