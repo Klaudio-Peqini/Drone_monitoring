@@ -1,3 +1,19 @@
+# PCB wiring
+
+
+
+<center><img src="images/PCB.svg" width="600px"></center>
+
+
+
+<center><img src="images/wire_pcb_F.png" width="300px"> <img src="images/wire_pcb_B.png" width="300px"></center>
+
+
+
+
+
+
+
 ## ESP32-S3-DevKitC-1u
 
 User guide for [ESP32-S3-DevKitC-1](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)
@@ -58,7 +74,7 @@ modules I2C interface.
 
 
 
-## LoRa LAMBDA62-1
+## LoRa LAMBDA62-8S (868MHz)
 
 
 
@@ -89,3 +105,8 @@ modules I2C interface.
 
 
 <center><img src="images/microSD.svg" width="400px"></center>
+
+
+
+
+

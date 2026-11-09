@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "modules_io") (type "KiCad") (uri "/home/drago/TEACHING/UNI_PROJECTS/Drone_monitoring/Hardware/modules_io.kicad_sym") (options "") (descr ""))
+)

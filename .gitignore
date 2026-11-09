@@ -36,5 +36,8 @@
 *.bak
 *.swp
 
+~*.kicad_pro.lck
+
 .pio/
 .cache/
+.history/
