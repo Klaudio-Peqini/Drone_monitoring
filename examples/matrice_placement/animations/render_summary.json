@@ -1,0 +1,126 @@
+{
+  "pressure": {
+    "file": "pressure_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": -37.88399887084961,
+    "colour_max": 37.88399887084961,
+    "units": "Gauge pressure [Pa; symmetric log scale]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes"
+  },
+  "velocity": {
+    "file": "velocity_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 0.0,
+    "colour_max": 11.344927820863239,
+    "units": "Air speed [m/s]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes",
+    "glyphs": "Fixed-length direction arrows above 0.02 m/s; actual speed is encoded by colour"
+  },
+  "streamlines": {
+    "file": "streamlines_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 0.0,
+    "colour_max": 11.344927820863239,
+    "units": "Air speed [m/s]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes"
+  },
+  "particles": {
+    "file": "particles_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 0.0,
+    "colour_max": 11.344927820863239,
+    "units": "Air speed [m/s]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes",
+    "integration_substeps": 360,
+    "reinjections": 267,
+    "interpolation": "trilinear in space; linear in saved physical time",
+    "integrator": "explicit midpoint RK2"
+  },
+  "vorticity": {
+    "file": "vorticity_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 0.0,
+    "colour_max": 65.32402038574219,
+    "units": "Filtered vorticity magnitude [1/s]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes"
+  },
+  "concentration": {
+    "file": "concentration_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "fixed",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 24.040300369262695,
+    "colour_max": 55.98716735839844,
+    "units": "Gas concentration [\u00b5g/m\u00b3]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes"
+  },
+  "placement": {
+    "file": "placement_3d.gif",
+    "frames": 25,
+    "dimensions": [
+      752,
+      600
+    ],
+    "requested_fps": 6,
+    "playback_duration_s": 4.0,
+    "physical_duration_s": 2.0,
+    "camera": "orbit",
+    "source_case": "installed/candidate_00/calm_light",
+    "colour_min": 1.0,
+    "colour_max": 55.58420290686909,
+    "units": "Worst normalised score [log; 1 = limit]",
+    "source": "computed 3-D fields; no synthetic wakes or stacked planes"
+  }
+}

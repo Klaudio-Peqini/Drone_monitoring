@@ -1,0 +1,21 @@
+{
+  "classes": {
+    "1_um": {
+      "relaxation_time_s": 5.368032649670142e-06,
+      "escaped": 61,
+      "remaining": 3
+    },
+    "2.5_um": {
+      "relaxation_time_s": 3.068512891398821e-05,
+      "escaped": 61,
+      "remaining": 3
+    },
+    "10_um": {
+      "relaxation_time_s": 0.0004680443830570901,
+      "escaped": 62,
+      "remaining": 2
+    }
+  },
+  "model": "Cunningham + Schiller-Naumann frozen-flow drag and gravity",
+  "limitations": "One-way visual trajectories, not aerosol concentration, aspiration efficiency or wall deposition."
+}
