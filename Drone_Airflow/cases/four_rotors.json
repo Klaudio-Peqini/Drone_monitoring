@@ -1,0 +1,102 @@
+{
+  "grid": [
+    48,
+    48,
+    48
+  ],
+  "bounds_m": [
+    [
+      -0.6,
+      0.6
+    ],
+    [
+      -0.6,
+      0.6
+    ],
+    [
+      -0.6,
+      0.4
+    ]
+  ],
+  "duration_s": 0.25,
+  "frames": 41,
+  "rho_kg_m3": 1.204,
+  "nu_m2_s": 1.5e-05,
+  "cfl": 0.35,
+  "max_dt_s": 0.002,
+  "blade_step_deg": 6.0,
+  "rotors": [
+    {
+      "center_m": [
+        -0.15,
+        -0.15,
+        0
+      ],
+      "radius_m": 0.1,
+      "hub_radius_m": 0.02,
+      "blades": 2,
+      "rpm": 1800.0,
+      "thrust_N": 0.5,
+      "torque_Nm": 0.008,
+      "direction": 1,
+      "epsilon_m": 0.045,
+      "elements": 10,
+      "phase_deg": 0.0,
+      "ramp_s": 0.04
+    },
+    {
+      "center_m": [
+        0.15,
+        -0.15,
+        0
+      ],
+      "radius_m": 0.1,
+      "hub_radius_m": 0.02,
+      "blades": 2,
+      "rpm": 1800.0,
+      "thrust_N": 0.5,
+      "torque_Nm": 0.008,
+      "direction": -1,
+      "epsilon_m": 0.045,
+      "elements": 10,
+      "phase_deg": 45.0,
+      "ramp_s": 0.04
+    },
+    {
+      "center_m": [
+        0.15,
+        0.15,
+        0
+      ],
+      "radius_m": 0.1,
+      "hub_radius_m": 0.02,
+      "blades": 2,
+      "rpm": 1800.0,
+      "thrust_N": 0.5,
+      "torque_Nm": 0.008,
+      "direction": 1,
+      "epsilon_m": 0.045,
+      "elements": 10,
+      "phase_deg": 90.0,
+      "ramp_s": 0.04
+    },
+    {
+      "center_m": [
+        -0.15,
+        0.15,
+        0
+      ],
+      "radius_m": 0.1,
+      "hub_radius_m": 0.02,
+      "blades": 2,
+      "rpm": 1800.0,
+      "thrust_N": 0.5,
+      "torque_Nm": 0.008,
+      "direction": -1,
+      "epsilon_m": 0.045,
+      "elements": 10,
+      "phase_deg": 135.0,
+      "ramp_s": 0.04
+    }
+  ]
+}

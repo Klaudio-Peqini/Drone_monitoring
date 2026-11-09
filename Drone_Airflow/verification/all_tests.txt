@@ -1,0 +1,53 @@
+test_cli_solves_renders_orbits_and_protects_existing_gifs (test_3d.CasesAndOutputs.test_cli_solves_renders_orbits_and_protects_existing_gifs) ... ok
+test_invalid_case_rejected (test_3d.CasesAndOutputs.test_invalid_case_rejected) ... ok
+test_undersampled_force_kernel_rejected (test_3d.CasesAndOutputs.test_undersampled_force_kernel_rejected) ... ok
+test_uniform_snapshot_times_and_rest_initial_frame (test_3d.CasesAndOutputs.test_uniform_snapshot_times_and_rest_initial_frame) ... Solving 3-D: 0.002/0.004 s
+Solving 3-D: 0.004/0.004 s
+ok
+test_user_folder_is_protected (test_3d.CasesAndOutputs.test_user_folder_is_protected) ... ok
+test_fft_worker_equivalence (test_3d.NumericalCore.test_fft_worker_equivalence) ... ok
+test_integrated_loads_and_forced_step_both_directions (test_3d.NumericalCore.test_integrated_loads_and_forced_step_both_directions) ... ok
+test_projection_removes_random_divergence (test_3d.NumericalCore.test_projection_removes_random_divergence) ... ok
+test_rest_is_preserved (test_3d.NumericalCore.test_rest_is_preserved) ... ok
+test_particles_do_not_cross_reinjection_with_a_trail (test_3d.VolumeVisualisation.test_particles_do_not_cross_reinjection_with_a_trail) ... ok
+test_particles_follow_time_dependent_analytic_translation (test_3d.VolumeVisualisation.test_particles_follow_time_dependent_analytic_translation) ... ok
+test_seeds_outside_volume_are_rejected (test_3d.VolumeVisualisation.test_seeds_outside_volume_are_rejected) ... ok
+test_streamlines_are_empty_in_still_air (test_3d.VolumeVisualisation.test_streamlines_are_empty_in_still_air) ... ok
+test_streamlines_use_all_three_velocity_components (test_3d.VolumeVisualisation.test_streamlines_use_all_three_velocity_components) ... ok
+test_trilinear_spatial_and_linear_temporal_interpolation (test_3d.VolumeVisualisation.test_trilinear_spatial_and_linear_temporal_interpolation) ... ok
+test_all_seven_gifs_and_short_startup_cannot_qualify (test_pipeline.EndToEndStudy.test_all_seven_gifs_and_short_startup_cannot_qualify) ... ok
+test_cached_case_rejects_different_probe_coordinates (test_placement.PlacementPhysics.test_cached_case_rejects_different_probe_coordinates) ... ok
+test_calibration_fit_with_manufactured_data (test_placement.PlacementPhysics.test_calibration_fit_with_manufactured_data) ... /workspace/scratch/9f04bdee8794/Drone_Airflow_3D/drone_airflow3d/actuator.py:83: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzhb7u_2n/measured.csv' mode='r' encoding='UTF-8'>
+  rows=list(csv.DictReader(Path(csv_path).open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_candidates_within_reach_and_clearance (test_placement.PlacementPhysics.test_candidates_within_reach_and_clearance) ... /workspace/scratch/9f04bdee8794/Drone_Airflow_3D/drone_airflow3d/placement.py:31: RuntimeWarning: invalid value encountered in multiply
+  distance=root_distance+fraction*(norm-root_distance)
+/workspace/scratch/9f04bdee8794/Drone_Airflow_3D/drone_airflow3d/placement.py:31: RuntimeWarning: invalid value encountered in add
+  distance=root_distance+fraction*(norm-root_distance)
+ok
+test_drag_surrogate_removes_kinetic_energy (test_placement.PlacementPhysics.test_drag_surrogate_removes_kinetic_energy) ... ok
+test_finite_inlet_rms_detects_unsteadiness (test_placement.PlacementPhysics.test_finite_inlet_rms_detects_unsteadiness) ... ok
+test_finite_inlet_uses_ambient_not_zero_speed (test_placement.PlacementPhysics.test_finite_inlet_uses_ambient_not_zero_speed) ... ok
+test_forced_wake_mass_conservation (test_placement.PlacementPhysics.test_forced_wake_mass_conservation) ... ok
+test_isosurface_empty_outside_scalar_range (test_placement.PlacementPhysics.test_isosurface_empty_outside_scalar_range) ... ok
+test_isosurface_of_affine_3d_field (test_placement.PlacementPhysics.test_isosurface_of_affine_3d_field) ... ok
+test_moving_ambient_profile_has_no_artificial_gas_bias (test_placement.PlacementPhysics.test_moving_ambient_profile_has_no_artificial_gas_bias) ... ok
+test_particle_uniform_flow_exact_stokes_solution (test_placement.PlacementPhysics.test_particle_uniform_flow_exact_stokes_solution) ... ok
+test_particles_relax_and_settle (test_placement.PlacementPhysics.test_particles_relax_and_settle) ... ok
+test_pressure_projection_recovers_a_known_gradient_force (test_placement.PlacementPhysics.test_pressure_projection_recovers_a_known_gradient_force) ... ok
+test_published_motor_diagonal_preserved (test_placement.PlacementPhysics.test_published_motor_diagonal_preserved) ... ok
+test_registry_rejects_invalid_parameters (test_placement.PlacementPhysics.test_registry_rejects_invalid_parameters) ... ok
+test_scalar_linear_profile_counterfactual (test_placement.PlacementPhysics.test_scalar_linear_profile_counterfactual) ... ok
+test_scalar_nonuniform_forced_mass_budget (test_placement.PlacementPhysics.test_scalar_nonuniform_forced_mass_budget) ... ok
+test_scalar_uniform_state_and_mass_ledger (test_placement.PlacementPhysics.test_scalar_uniform_state_and_mass_ledger) ... ok
+test_symmetric_sgs_stress_removes_energy (test_placement.PlacementPhysics.test_symmetric_sgs_stress_removes_energy) ... ok
+test_tilted_actuator_force_and_all_moments (test_placement.PlacementPhysics.test_tilted_actuator_force_and_all_moments) ... ok
+test_uniform_wind_is_preserved (test_placement.PlacementPhysics.test_uniform_wind_is_preserved) ... ok
+test_vorticity_of_rigid_rotation (test_placement.PlacementPhysics.test_vorticity_of_rigid_rotation) ... ok
+test_wind_trim_and_offset_moment_balance (test_placement.PlacementPhysics.test_wind_trim_and_offset_moment_balance) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 10.531s
+
+OK

@@ -1,0 +1,64 @@
+Starting Stage 2: sensitivity at 2553 feasible station positions
+Finished grid_coarse: 964 steps, 55.9 s wall
+Finished calm_light: 1321 steps, 157.3 s wall
+Finished width_thinner: 1356 steps, 161.9 s wall
+Finished domain_larger: 1332 steps, 294.4 s wall
+Finished width_thicker: 1289 steps, 150.3 s wall
+Finished time_half: 2626 steps, 312.3 s wall
+Stage 2 ended: sensitivity quantified; any failed locations remain unqualified.
+Starting Stage 3: operating-envelope screening
+Finished calm_loaded: 1410 steps, 159.7 s wall
+Finished east_light: 1548 steps, 176.9 s wall
+Finished west_light: 1548 steps, 177.1 s wall
+Finished north_light: 1597 steps, 183.1 s wall
+Finished south_light: 1597 steps, 156.7 s wall
+Finished east_loaded: 1752 steps, 163.3 s wall
+Stage 3 ended: robust screening map written.
+Starting Stage 4: installed station/support checks
+Finished calm_light: 1321 steps, 190.4 s wall
+Finished calm_loaded: 1410 steps, 204.3 s wall
+Finished east_light: 1548 steps, 215.9 s wall
+Finished west_light: 1548 steps, 226.6 s wall
+Finished north_light: 1595 steps, 219.5 s wall
+Finished calm_light: 1377 steps, 192.8 s wall
+Finished south_light: 1595 steps, 224.1 s wall
+Finished east_loaded: 1752 steps, 245.7 s wall
+Finished calm_loaded: 1463 steps, 196.8 s wall
+Finished east_light: 1571 steps, 207.2 s wall
+Finished west_light: 1616 steps, 215.0 s wall
+Finished north_light: 1595 steps, 197.7 s wall
+Finished south_light: 1648 steps, 154.1 s wall
+Finished east_loaded: 1777 steps, 154.8 s wall
+Stage 4 ended: installed candidates checked; physical certification remains pending.
+PROVISIONAL SCREENING: no physically validated mounting recommendation
+Starting Stage 2: sensitivity at 2553 feasible station positions
+Extending sensitivity to highest wind: east_loaded
+Stage 2 ended: sensitivity quantified; any failed locations remain unqualified.
+Starting Stage 3: operating-envelope screening
+Stage 3 ended: robust screening map written.
+Starting Stage 4: installed station/support checks
+Finished calm_light: 1372 steps, 139.9 s wall
+Finished calm_loaded: 1459 steps, 147.8 s wall
+Finished east_light: 1597 steps, 160.7 s wall
+Finished west_light: 1617 steps, 162.7 s wall
+Finished north_light: 1643 steps, 155.0 s wall
+Finished south_light: 1556 steps, 147.5 s wall
+Finished east_loaded: 1806 steps, 163.1 s wall
+Stage 4 ended: installed candidates checked; physical certification remains pending.
+PROVISIONAL SCREENING: no physically validated mounting recommendation
+Starting Stage 2: sensitivity at 2553 feasible station positions
+Extending sensitivity to highest wind: east_loaded
+Stage 2 ended: sensitivity quantified; any failed locations remain unqualified.
+Starting Stage 3: operating-envelope screening
+Stage 3 ended: robust screening map written.
+Starting Stage 4: installed station/support checks
+Stage 4 ended: installed candidates checked; physical certification remains pending.
+PROVISIONAL SCREENING: no physically validated mounting recommendation
+
+Highest-wind sensitivity computation log:
+Finished east_loaded__grid_coarse: 1224 steps, 89.4 s wall
+Finished east_loaded__width_thinner: 1802 steps, 266.2 s wall
+Finished east_loaded__domain_larger: 1771 steps, 502.6 s wall
+Finished east_loaded__time_half: 3503 steps, 532.8 s wall
+Finished east_loaded__width_thicker: 1720 steps, 235.9 s wall
+Highest-wind sensitivity cases completed.

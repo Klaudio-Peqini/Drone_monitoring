@@ -1,0 +1,25 @@
+{
+  "source_archive": "Fluid_Flows_CFD_LBM.zip",
+  "source_archive_sha256": "b29fe3be4874f2e78436138c3d4197dc9500fb3efe549783c6d393c5f5d4b983",
+  "retained_files": [
+    {
+      "source": "Fluid_Flows_CFD_LBM_Python_Scripts/fluidlab/rotor3d/grid.py",
+      "destination": "drone_airflow3d/grid.py",
+      "sha256": "e1e2abdd9537d074f2eaa734ed66bd517a855bfd3c9f4fc7d752380665291c05",
+      "copied_without_changes": true
+    },
+    {
+      "source": "Fluid_Flows_CFD_LBM_Python_Scripts/fluidlab/rotor3d/flow.py",
+      "destination": "drone_airflow3d/flow.py",
+      "sha256": "6724bb47dd930e4c150127f1427591730f1e2c173a2c11371012b0afa4a81801",
+      "copied_without_changes": true
+    },
+    {
+      "source": "Fluid_Flows_CFD_LBM_Python_Scripts/fluidlab/rotor3d/rotor.py",
+      "destination": "drone_airflow3d/rotor.py",
+      "sha256": "69b27410c53db28aa3fc1d35bb2fcd28c8ec0305e7dbeba88b59c728952f0c43",
+      "copied_without_changes": true
+    }
+  ],
+  "omitted": "2-D lessons, slice renderers, precomputed outputs, old verification reports, Python and Numba caches. The supplied archive is untouched."
+}
