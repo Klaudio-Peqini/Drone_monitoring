@@ -119,7 +119,7 @@ Gjatë periudhës së mbetur të muajit Nëntor synohen këto rezultate konkrete
 Duke marrë në konsideratë peshën relative të secilit aktivitet në ngarkesën totale të punës, progresi aktual llogaritet si:
 
 $$
-0.45\times60\% + 0.05\times100\% + 0.10\times0\% + 0.25\times80\% + 0.15\times0\% = \mathbf{52\%}.
+0.45 \times 60 + 0.05 \times 100 + 0.10 \times 0 + 0.25 \times 80 + 0.15 \times 0 = \mathbf{52}
 $$
 
 **Shkalla e përgjithshme aktuale e realizimit: 52%.**
