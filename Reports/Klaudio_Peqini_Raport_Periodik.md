@@ -28,7 +28,7 @@
 - **Çfarë mbetet për t'u bërë:** Plotësimi i elementeve të mbetura të setup-it dhe integrimi i tyre në konfigurimin përfundimtar eksperimental.
 - **Produkti:** Setup laboratorik i plotësuar dhe funksional për testime aerodinamike.
 - **Pesha në ngarkesën totale:** 45%
-- **Shkalla aktuale e realizimit:** 20%
+- **Shkalla aktuale e realizimit:** 60%
 - **Afati i parashikuar:** Fundi i Shtatorit 2026.
 - **Statusi:** `In progress`
 
@@ -39,7 +39,7 @@
 - **Çfarë mbetet për t'u bërë:** Përfundimi i simulimeve, analiza e rezultateve dhe përgatitja e rezultateve përfundimtare.
 - **Produkti / Deliverable:** Rezultatet e simulimit fluidodinamik.
 - **Pesha në ngarkesën totale:** 25%
-- **Shkalla aktuale e realizimit:** 40%
+- **Shkalla aktuale e realizimit:** 80%
 - **Afati i parashikuar:** Java e pare e Tetorit 2026.
 - **Statusi:** `In progress`
 
@@ -119,7 +119,7 @@ Gjatë periudhës së mbetur të muajit Nëntor synohen këto rezultate konkrete
 Duke marrë në konsideratë peshën relative të secilit aktivitet në ngarkesën totale të punës, progresi aktual llogaritet si:
 
 $$
-0.45 \times 60\% + 0.05 \times 100\% + 0.10 \times 0\% + 0.25 \times 80\% + 0.15 \times 0\% = \mathbf{52\%}.
+0.45\times60\% + 0.05\times100\% + 0.10\times0\% + 0.25\times80\% + 0.15\times0\% = \mathbf{52\%}.
 $$
 
 **Shkalla e përgjithshme aktuale e realizimit: 52%.**
